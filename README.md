@@ -34,3 +34,15 @@ python main.py
 
 ## step 3 configure webhook
 
+- go to the github on the project repo, click on settings
+- select webhooks
+   - add wehooks 
+   - on payload url add the jenskins master public IP url e.g http://54.175.184.89:8080/github-webhook/
+   - Leave everything as default, then add webhook and wait for it activate with the check mark symbol.
+
+## Step 4 Build Test and Deploy with jenkins
+ - install pluggins 
+    1. credentials 
+    2. mailer
+    3. github
+    4. stageview 
