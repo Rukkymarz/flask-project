@@ -4,7 +4,7 @@ pipeline {
     environment {
         REPO_URL = 'https://github.com/Rukkymarz/flask-project.git' 
         DEPLOY_DIR = '/home/ubuntu/' 
-        EMAIL_RECIPIENTS = 'rukkystarz@gmail.com' 
+        EMAIL_RECIPIENTS = 'rukkymarz@gmail.com' 
     }
 
     stages {

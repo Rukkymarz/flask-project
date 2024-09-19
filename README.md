@@ -46,3 +46,19 @@ python main.py
     2. mailer
     3. github
     4. stageview 
+
+## Step 5 Email Configuration
+ - search for App password. 
+   - signing, enter app name
+   - click on create and copy code
+- go to jenkins,manage jenkins
+   - click on system 
+   - scroll down to Email notification 
+    - on SMPT Server add smpt.gmail.com
+    - expand the advance button 
+    - then select use smpt authentication
+     - then on username enter email address 
+     - on password enter the code copied from app password
+     - select use ssl, on smpt port enter 465
+     - leave everything else on default 
+     - lastly click on test configuration. if sucessful email should be sent then click apply and save.
